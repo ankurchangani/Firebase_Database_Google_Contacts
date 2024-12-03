@@ -67,7 +67,7 @@ const Home = ({ searchQuery }) => {
         <div className="p-4 max-w-4xl mx-auto bg-white shadow-lg rounded-lg mt-5">
             {loading ? (
                 <div className="flex justify-center items-center">
-                    <div className="loader w-16 h-16 border-4 border-blue-500 border-t-transparent rounded-full animate-spin"></div>
+                    <div className="loader  "></div>
                 </div>
             ) : error ? (
                 <p className="text-red-500 text-center">
